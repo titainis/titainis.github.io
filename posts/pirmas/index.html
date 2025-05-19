@@ -7,9 +7,10 @@
 <meta name="robots" content="index, follow">
 <title>Pirmas puslapis | Mano puslapis</title>
 <meta name="keywords" content="">
-<meta name="description" content="Čia yra paveikslėlis:
+<meta name="description" content="paveikslas:
 
-Titas gr">
+print(&#34;cia matomas katinas&#34;)
+">
 <meta name="author" content="">
 <link rel="canonical" href="https://titainis.github.io/posts/pirmas/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.6da9a63d25a9608bca2f7f907a030e887a7dd3c3f3918e4cc113129361414bda.css" integrity="sha256-bammPSWpYIvKL3&#43;QegMOiHp908PzkY5MwRMSk2FBS9o=" rel="preload stylesheet" as="style">
@@ -60,8 +61,8 @@ Titas gr">
 </noscript><meta property="og:url" content="https://titainis.github.io/posts/pirmas/">
   <meta property="og:site_name" content="Mano puslapis">
   <meta property="og:title" content="Pirmas puslapis">
-  <meta property="og:description" content="Čia yra paveikslėlis:
-Titas gr">
+  <meta property="og:description" content="paveikslas:
+print(&#34;cia matomas katinas&#34;) ">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -69,9 +70,10 @@ Titas gr">
     <meta property="article:modified_time" content="2025-05-16T00:00:00+00:00">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Pirmas puslapis">
-<meta name="twitter:description" content="Čia yra paveikslėlis:
+<meta name="twitter:description" content="paveikslas:
 
-Titas gr">
+print(&#34;cia matomas katinas&#34;)
+">
 
 
 <script type="application/ld+json">
@@ -100,12 +102,12 @@ Titas gr">
   "@type": "BlogPosting",
   "headline": "Pirmas puslapis",
   "name": "Pirmas puslapis",
-  "description": "Čia yra paveikslėlis:\nTitas gr\n",
+  "description": "paveikslas:\nprint(\u0026#34;cia matomas katinas\u0026#34;) ",
   "keywords": [
     
   ],
-  "articleBody": "Čia yra paveikslėlis:\nTitas gr\n",
-  "wordCount" : "5",
+  "articleBody": "paveikslas:\nprint(\"cia matomas katinas\") ",
+  "wordCount" : "4",
   "inLanguage": "en",
   "datePublished": "2025-05-16T00:00:00Z",
   "dateModified": "2025-05-16T00:00:00Z",
@@ -180,10 +182,10 @@ Titas gr">
 
 </div>
   </header> 
-  <div class="post-content"><p>Čia yra paveikslėlis:</p>
+  <div class="post-content"><p>paveikslas:</p>
 <p><img alt="Katinas" loading="lazy" src="/images/katinas.jpg"></p>
-<p>Titas gr</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;cia matomas katinas&#34;</span>)
+</span></span></code></pre></div>
 
   </div>
 
@@ -262,6 +264,53 @@ Titas gr">
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 
