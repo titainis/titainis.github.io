@@ -6,16 +6,16 @@
     <description>Recent content in Posts on Mano puslapis</description>
     <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://titainis.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pirmas puslapis</title>
       <link>https://titainis.github.io/posts/pirmas/</link>
-      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
       <guid>https://titainis.github.io/posts/pirmas/</guid>
       <description>&lt;p&gt;paveikslas:&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;Katinas&#34; loading=&#34;lazy&#34; src=&#34;https://titainis.github.io/images/katinas.jpg&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;cia matomas katinas&amp;#34;&lt;/span&gt;)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Katinas&amp;#34;&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>
